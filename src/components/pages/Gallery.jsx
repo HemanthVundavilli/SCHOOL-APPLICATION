@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './../stylesheets/Gallery.css'; // Make sure to import this
+import ScrollToTopButton from './../pages/ScrollToTopButton';
 
 const Gallery = () => {
   return (
@@ -73,6 +74,7 @@ const Gallery = () => {
         {/* Add more images similarly */}
       </div>
     </div>
+    <ScrollToTopButton />
     </div>
   );
 };

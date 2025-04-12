@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './../stylesheets/Homepage.css';
+import ScrollToTopButton from './../pages/ScrollToTopButton';
 
 const HomePage = () => {
   return (
@@ -160,7 +161,7 @@ const HomePage = () => {
         </div>
       </div>
       {/* news and Announcements ends */}
-
+            <ScrollToTopButton />
       
     </div>
   );

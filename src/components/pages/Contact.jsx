@@ -1,6 +1,8 @@
 import React from 'react';
 import './../stylesheets/ContactUs.css';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from './../pages/ScrollToTopButton';
+
 const ContactUs = () => {
   return (
 
@@ -106,6 +108,7 @@ const ContactUs = () => {
         </div>
       </div>
     </div>
+    <ScrollToTopButton />
     </div>
   );
 };

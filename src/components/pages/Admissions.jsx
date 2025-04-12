@@ -1,6 +1,9 @@
 import React from 'react';
 import './../stylesheets/Admissions.css';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from './../pages/ScrollToTopButton';
+
+
 const Admissions = () => {
   return (
 
@@ -79,6 +82,7 @@ const Admissions = () => {
         </ul>
       </div>
     </div>
+    <ScrollToTopButton />
     </div>
   );
 };

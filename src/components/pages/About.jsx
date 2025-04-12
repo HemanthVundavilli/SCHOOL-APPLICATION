@@ -1,6 +1,8 @@
 import React from 'react';
 import './../stylesheets/About.css'; // You can place the styles in this file
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from './../pages/ScrollToTopButton';
+
 const About = () => {
   return (
 
@@ -83,6 +85,8 @@ const About = () => {
         </div>
       </div>
     </div>
+
+    <ScrollToTopButton />
     </div>
   );
 };

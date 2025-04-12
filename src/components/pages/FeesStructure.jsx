@@ -1,6 +1,8 @@
 import React from 'react';
 import './../stylesheets/FeesStructure.css';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from './../pages/ScrollToTopButton';
+
 const FeesStructure = () => {
   return (
 
@@ -145,6 +147,7 @@ const FeesStructure = () => {
         </p>
       </div>
     </div>
+    <ScrollToTopButton />
     </div>
   );
 };

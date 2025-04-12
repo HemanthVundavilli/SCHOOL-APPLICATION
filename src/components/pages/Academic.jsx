@@ -1,5 +1,7 @@
 import './../stylesheets/Academics.css';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from './../pages/ScrollToTopButton';
+
 const Academics = () => {
   return (
   <div className="nav-bar p-0 m-0"> 
@@ -158,6 +160,7 @@ const Academics = () => {
     </ul>
   </div>
 </section>
+    <ScrollToTopButton/>
 </div>
 
   );
