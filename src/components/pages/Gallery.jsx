@@ -68,7 +68,7 @@ const Gallery = () => {
           <div className="gallery-caption">Sankranthi Sambaralu</div>
         </div>
         <div className="gallery-card">
-          <img src="./images/sliderimage-2.JPG" alt="Event 2" className="gallery-image" />
+          <img src="./images/sliderimage-2.jpg" alt="Event 2" className="gallery-image" />
           <div className="gallery-caption">ClassRooms</div>
         </div>
         {/* Add more images similarly */}
