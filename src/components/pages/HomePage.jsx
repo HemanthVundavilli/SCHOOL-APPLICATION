@@ -61,12 +61,12 @@ const HomePage = () => {
           </div>
         </div>
       </nav>
-      <div className="admissions-banner py-2 text-center text-white fw-semibold" style={{ backgroundColor: '#d32f2f' }}>
+      {/* <div className="admissions-banner py-2 text-center text-white fw-semibold" style={{ backgroundColor: '#d32f2f' }}>
   🎓 Admissions are now open for the academic year 2025–26!
   <Link to="/admissions" className="btn btn-light btn-sm ms-3 fw-bold">
     Enroll Now
   </Link>
-</div>
+</div> */}
 
       {/* Hero Section - Peaceful Look */}
 <div className="hero-section py-5" style={{ background: 'linear-gradient(to right, #e0f2f1, #f1f8e9)' }}>
